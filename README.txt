@@ -6,7 +6,7 @@ disabled blank content even when enforce version presence is off,
 add ability to enforce an item exists for a specific region without using language versions.
 
 Compatibility
-The codebase is compatible with Sitecore 6.6.x releases.
+The codebase is compatible with Sitecore 6.6.x releases and at least through Sitecore 7.2.x.
 This assumes you are using the latest version of the Partial Language Fallback Module
 http://marketplace.sitecore.net/en/Modules/Language_Fallback.aspx
 
@@ -30,4 +30,4 @@ Testing
 4. Set a Content item to limit to a specific country and then select a different country on the front-end, try to go to that page
 5. Should redirect to your 404 page
 
-Review the blog series about Partial Language Fallback on Sitecore, link TBD
+Review the blog series about Partial Language Fallback on Sitecore, http://www.sitecore.net/en-gb/Learn/Blogs/Technical-Blogs/Elizabeth-Spranzani.aspx
